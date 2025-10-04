@@ -1,6 +1,9 @@
 import { Provider } from "react-redux";
 import Counter from "./components/Counter";
 import store from "./redux/store";
+import HooksCounter from "./components/HooksCounter";
+import RecapCounter from "./components/RecapCounter";
+import PracticeHooksCounter from "./components/PracticeHooksCounter";
 
 function App() {
   return (
@@ -10,9 +13,9 @@ function App() {
           Simple Counter Application
         </h1>
 
-        <Counter />
-        <Counter />
-        <Counter />
+        <HooksCounter />
+        <RecapCounter />
+        <PracticeHooksCounter />
       </div>
     </Provider>
   );
